@@ -1,6 +1,7 @@
 object DiskAreaCalculator {
-    def calculateArea(radius: Double): Double = 
+    def calculateArea(radius: Double): Double = {
      math.Pi * math.pow(radius, 2)
+    }
 
   def main(args: Array[String]): Unit = {
     val radius = 5

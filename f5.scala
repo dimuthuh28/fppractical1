@@ -1,12 +1,12 @@
 object calculatTime {
   def easypaceT(distance: Double): Double = {
     val easypace = 8
-    distance / easypace
+    distance * easypace
   }
 
   def tempoT(distance: Double): Double = {
     val tempo = 7
-    distance / tempo
+    distance * tempo
   }
 
   def main(args: Array[String]): Unit = {

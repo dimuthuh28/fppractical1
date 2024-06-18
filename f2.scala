@@ -1,7 +1,7 @@
 object Converter {
-  def calculate(celsius: Double): Double = {
+  def calculate(celsius: Double): Double = 
     celsius * 1.8 + 32.00
-  }
+  
 
   def main(args: Array[String]): Unit = {
     val celsius = 35

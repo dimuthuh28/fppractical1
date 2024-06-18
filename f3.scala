@@ -1,8 +1,8 @@
 object VolumeCalculator {
 
-  def calculate(radius: Double): Double = 
+  def calculate(radius: Double): Double = {
 
-    (4.0 / 3.0) *math.Pi * math.pow(radius, 3)
+    (4.0 / 3.0) *math.Pi * math.pow(radius, 3)}
 
 
   def main(args: Array[String]): Unit = {
